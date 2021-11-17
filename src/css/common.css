@@ -22,3 +22,14 @@ img {
   justify-content: center;
   align-content: center;
 }
+
+button {
+  display: inline-block;
+  font-size: 36px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button:not(:last-child) {
+  margin-right: 20px;
+}

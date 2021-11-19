@@ -45,16 +45,55 @@ button:not(:last-child) {
   align-content: center;
 
   font-size: 36px;
-  font-weight: bold;
 }
 
 input[id='datetime-picker'] {
   font-size: 36px;
   color: red;
+  margin-right: 30px;
+  text-align: center;
 }
 
 .field {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+}
+
+.value {
+  font-size: 120px;
+}
+
+.label {
+  font-size: 36px;
+}
+
+.field:not(:last-child) {
+  margin-right: 30px;
+}
+
+.timer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Promises */
+.form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+label {
+  font-size: 24px;
+}
+
+label:not(:last-child) {
+  margin-right: 20px;
+}
+
+label > input {
+  display: block;
+  font-size: inherit;
 }
